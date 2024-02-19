@@ -25,6 +25,7 @@ La opción que configuraremos, será la siguiente:
 ![img04]()
 
 RHOSTS: Aquí pondremos la dirección IP de la máquina objetivo.
+PAYLOAD: Aquí pondremos el siguiente payload: windows/x64/shell/reverse_tcp
 
 Nota: La IP cambió porque se me cerró la máquina de THM.
 
