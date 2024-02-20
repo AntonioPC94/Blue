@@ -49,9 +49,11 @@ Ahora vamos a utilizar la herramienta "hashdump" para intentar sacar todos los h
 
 ![img09]()
 
-Como observamos en la imagen anterior, tenemos los hashes de los 3 usuarios que hay en el sistema. A continuación, vamos a intentar romper cada uno de ellos con la herramienta "John The Ripper".
+Como observamos en la imagen anterior, tenemos los hashes de los 3 usuarios que hay en el sistema. Antes de romperlos, vamos a tratar de identificar a qué tipo de hash nos estamos enfrentando realizando una búsqueda en internet.
 
+![img10]()
 
+Ahora que sabemos que los hashes son de tipo NTLM, vamos a utilizar una herramienta que nos ayude a romper dichos hashes, por ejemplo, John The Ripper.
 
 
 
