@@ -20,7 +20,7 @@ La búsqueda que realizaremos en Metasploit, será la siguiente:
 
 ![img03]()
 
-La opción que configuraremos, será la siguiente:
+Y las opciones que configuraremos, serán la siguientes:
 
 ![img04]()
 
@@ -49,14 +49,30 @@ Ahora vamos a utilizar la herramienta "hashdump" para intentar sacar todos los h
 
 ![img09]()
 
-Como observamos en la imagen anterior, tenemos los hashes de los 3 usuarios que hay en el sistema. Antes de romperlos, vamos a tratar de identificar a qué tipo de hash nos estamos enfrentando realizando una búsqueda en internet.
+Como observamos en la imagen anterior, tenemos los hashes de los 3 usuarios que hay en el sistema, pero nosotros nos vamos a centrar en el hash de la contraseña del usuario Jon, que es el que nos interesa. Antes de romperlo, vamos a tratar de identificar a qué tipo de hash nos estamos enfrentando realizando una búsqueda en internet.
 
 ![img10]()
 
-Ahora que sabemos que los hashes son de tipo NTLM, vamos a utilizar una herramienta que nos ayude a romper dichos hashes, por ejemplo, John The Ripper.
+Ahora que sabemos que el hash es de tipo NTLM, vamos a utilizar una herramienta que nos ayude a romper dicho hash, por ejemplo, John The Ripper.
 
+![img11]()
 
+Como se observa en la imagen anterior, hemos conseguido romper el hash con éxito.
 
+Por último, vamos a buscar las 3 flags que están preparadas en la máquina para ser encontradas:
 
+# Flag 1
 
+La primera flag, nos la encontraremos en *:\ como "*****.txt"
 
+![img12]()
+
+# Flag 2
+
+La segunda flag nos la encontraremos en "*:\\*******\\********\\******\\" como "*****.txt".
+
+# Flag 3
+
+La tercera flag, nos la encontraremos en *:\*****\***\*********\ como "*****.txt"
+
+![img14]()
