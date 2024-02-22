@@ -72,10 +72,10 @@ La primera flag, nos la encontraremos en "*:\" como "*****.txt"
 ![BL15](https://github.com/AntonioPC94/Blue/blob/4284fdae53980157487c066f2856c531e4bdcba2/img/BL15.png)
 ![BL16](https://github.com/AntonioPC94/Blue/blob/4284fdae53980157487c066f2856c531e4bdcba2/img/BL16.png)
 
-La segunda flag nos la encontraremos en "*:\*******\********\******\" como "*****.txt".
+La segunda flag nos la encontraremos en "*:\" (Aquí iría la ruta absoluta que apunta al archivo, pero para evitar spoilers, no la pongo.) como "*****.txt"
 
 # Flag 3
 
-La tercera flag, nos la encontraremos en "*:\*****\***\*********\" como "*****.txt"
+La tercera flag, nos la encontraremos en "*:\" (Aquí iría la ruta absoluta que apunta al archivo, pero para evitar spoilers, no la pongo.) como "*****.txt"
 
 ![BL14](https://github.com/AntonioPC94/Blue/blob/4284fdae53980157487c066f2856c531e4bdcba2/img/BL14.png)
